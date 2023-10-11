@@ -1,0 +1,22 @@
+@font-face{
+    font-family: Primeira;
+    src: url("../fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: segunda;
+    src: url('../fonts/Poppins-Italic.ttf');
+}
+@font-face {
+    font-family: extraBold;
+    src: url('../fonts/Poppins-ExtraBold.ttf');
+}
+main{
+    font-family: Primeira;
+}
+
+.inps{
+    font-family: segunda;
+}
+#infs{
+    font-family: extraBold;
+}

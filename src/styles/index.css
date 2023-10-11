@@ -134,3 +134,11 @@ main{
     color: #ac2bac;
     font-size: 100px;
 }
+
+.color{
+    color: red;
+}
+
+.color input::-webkit-input-placeholder{
+    color: red;
+}

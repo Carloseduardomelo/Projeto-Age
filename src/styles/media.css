@@ -120,8 +120,55 @@
     }
 
 }
+@media (max-width: 650px) and (min-width: 400px){
+    main{
+        width: 80%;
+        padding: 0;
+    }
 
-@media (max-width: 650px) and (min-width: 200px){
+    #inputs{
+        width: 100%;
+        height: 30%;
+        margin-bottom: 15px;
+
+        margin-top: 0;
+    }
+
+    #infs{
+        width: 100%;
+        height: 70%;
+        font-size: 50px;
+        margin: 0;
+        gap: 0;
+        padding: 0;
+        
+    }
+    #infs span{
+        font-size: 50px;
+        margin-right: 20px;
+    }
+    
+    .ano{
+        gap: 0;
+    }
+
+    #img {
+        position: absolute;
+        left: 38%;
+
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .paragrafo{
+        font-size: 13px;
+    }
+    
+
+}
+
+@media (max-width: 400px) and (min-width: 200px){
     main{
         width: 85%;
         padding: 0;
@@ -168,28 +215,31 @@
     
 }
 
-@media (max-width: 1440px) and (min-width: 1001px){
+@media (max-width: 1200px) and (min-width: 1001px){
     main{
-        width: 70%;
+        width: 50%;
     }
 
     #infs{
         gap: 0;
-        height: 30%;
+        height: 20%;
     }
     
     #inputs{
         width: 70%;
-        height: 30%;
+        height: 100%;
         margin-bottom: 15px;
         margin-top: 0;
 
         padding-top: 30px;
     }
+    #inputs input{
+
+    }
     
     #infs{
         width: 100%;
-        height: 40%;
+        height: 30%;
         font-size: 50px;
         margin-left: 28px;
     }
@@ -205,8 +255,30 @@
         gap: 0;
     }
     #barra{
+        width: 94%;
+        margin-top: 20px;
         margin-bottom: 60px;
         padding-bottom: 20px;
     }
 
+    .paragrafo{
+        padding-top: 10px;
+    }
+
+}
+@media (max-width: 1300px) and (min-width: 1001px){
+    #inputs{
+        height: 30%;
+        margin: 0;
+    }
+    .inps{
+        height: 70%;
+    }
+    #infs p{
+        font-size: 80px;
+        margin: 0;
+    }
+    #infs span{
+        font-size:80px;
+    }
 }

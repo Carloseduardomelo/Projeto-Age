@@ -37,8 +37,9 @@ main{
 }
 
 #inputs{
-    width: 70%;
-    height: 30%;
+    width: 80%;
+    min-height: 20%;
+    height: 20%;
 
     display: flex;
     align-items: center;
@@ -48,10 +49,14 @@ main{
 
     padding: 10px;
 
-    padding-top: 20px;
+    margin: 30px 20px 0px 0px;
+
+    /* overflow: hidden; */
 }
 
 .inps{
+    width: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +117,7 @@ main{
     width: 100%;
     height: 45%;
 
-    margin-top: 80px;
+    /margin-top: 80px;
 
     font-size: 80px;
 
@@ -141,4 +146,20 @@ main{
 
 .color input::-webkit-input-placeholder{
     color: red;
+}
+
+.paragrafo{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+
+
+
+    gap:10px;
+
+    overflow: hidden;
+
+    margin-top: 6px;
 }

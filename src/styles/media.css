@@ -2,23 +2,19 @@
 
     main{
         padding: 0;
-    }
-    
-    
-    #img {
-        position: absolute;
-        top: 37%;
-        left: 44%;
+        gap: 30px;
     }
 
     #inputs{
         width: 100%;
+        height: 30%;
+        margin-top: 10px;
         margin-bottom: 30px;
     }
     
     #infs{
         width: 100%;
-        height: 70%;
+        height: 60%;
         font-size: 50px;
         margin: 0;
         gap: 0;
@@ -44,9 +40,88 @@
         margin: 0;
         width: 88%;
     }
+
+    #barra #img{
+        position: absolute;
+        top: 40%;
+        
+        width: 70px;
+        height: 70px;
+    }
 }
 
-@media (max-width: 450px) and (min-width: 200px){
+@media (max-width: 1000px) and (min-width: 775px){
+    main{
+        height: 70%;
+        padding: 0;
+    }
+
+    #inputs{
+        width: 100%;
+        height: 30%;
+        margin-top: 10px;
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    #infs{
+        width: 100%;
+        height: 60%;
+        font-size: 50px;
+        margin: 0;
+        gap: 0;
+        padding: 0;
+        
+        
+    }
+    #infs span{
+        font-size: 70px;
+        margin-right: 20px;
+        gap: 0;
+    }
+
+    #infs p{
+        font-size: clamp(1em, 1em + 1vw, 1.5em);
+    }
+    
+    .ano{
+        gap: 0;
+        height: 20%;
+    }
+    
+    #barra {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    #barra hr{
+        margin: 0;
+        width: 88%;
+    }
+
+    #barra #img{
+        position: absolute;
+        top: 38%;
+        
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 975px) and (min-width: 840px){
+    #infs p{
+        font-size: 1.4em;
+    }
+
+}
+@media (max-width: 1000px) and (min-width: 975px){
+    #infs p{
+        font-size: 1.5em;
+    }
+
+}
+
+@media (max-width: 650px) and (min-width: 200px){
     main{
         width: 85%;
         padding: 0;
@@ -54,7 +129,10 @@
 
     #inputs{
         width: 100%;
-        margin-bottom: 30px;
+        height: 30%;
+        margin-bottom: 15px;
+
+        margin-top: 0;
     }
 
     #infs{
@@ -77,8 +155,58 @@
 
     #img {
         position: absolute;
-        left: 36%;
+        left: 38%;
+
+        width: 70px;
+        height: 70px;
     }
 
+
+    .paragrafo{
+        font-size: 13px;
+    }
     
+}
+
+@media (max-width: 1440px) and (min-width: 1001px){
+    main{
+        width: 70%;
+    }
+
+    #infs{
+        gap: 0;
+        height: 30%;
+    }
+    
+    #inputs{
+        width: 70%;
+        height: 30%;
+        margin-bottom: 15px;
+        margin-top: 0;
+
+        padding-top: 30px;
+    }
+    
+    #infs{
+        width: 100%;
+        height: 40%;
+        font-size: 50px;
+        margin-left: 28px;
+    }
+    #infs p{
+        font-size: 70px;
+        margin: 0;
+    }
+    #infs span{
+        font-size:70px;
+    }
+    .ano{
+        margin: 0;
+        gap: 0;
+    }
+    #barra{
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+    }
+
 }

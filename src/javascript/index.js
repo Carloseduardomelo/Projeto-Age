@@ -63,12 +63,6 @@ const tudo = () =>{
     infs[2].innerHTML = ( Math.abs(mes.getDate() - inps[0].value))
 }
 
-/*    console.log(mes.getMonth() + 1)
-    console.log(mes.getUTCDate())
-    console.log(mes.getUTCDay())
-    console.log(mes)*/
-
-
 but.addEventListener('click' , () =>{
     tudo()
     console.log(inps)

@@ -282,3 +282,22 @@
         font-size:80px;
     }
 }
+@media (max-width: 1990px) and (min-width: 1001px){
+    main{
+        height: 80%;
+    }
+    #inputs{
+        height: 30%;
+        margin: 0;
+    }
+    .inps{
+        height: 70%;
+    }
+    #infs p{
+        font-size: 80px;
+        margin: 0;
+    }
+    #infs span{
+        font-size:80px;
+    }
+}
